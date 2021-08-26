@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pagina modifica dati utente</title>
+<link href="Scripts&amp;Styles/styles/insideStyle.css" rel="stylesheet"
+	type="text/css" />
+<!--[if IE]>
+<link type="text/css"  href="Scripts&Styles/explorer/explorerstyle.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="Scripts&Styles/explorer/IEglobalstyle.css">
+<![endif]-->
+</head>
+
+<body class="insederbodyshort">
+	<div id="topcontainer">
+		<h3>Modifica</h3>
+		<form action="selectEdit.do" method="post">
+			<fieldset>
+				<legend>modifica i tuoi dati</legend>
+				<label>Tuo indirizzo mail: <input type="text" name="udmail"
+					id="udmail" /></label><br /> <br /> <label>password: <input
+					type="text" name="password" id="password" /></label>
+			</fieldset>
+			<input type="submit" value="INVIA DATI" />
+		</form>
+		<h3>Cancella</h3>
+		<form action="selectClearuser.do" method="post">
+			<fieldset>
+				<legend>Cancella completamente i tuoi dati dal database</legend>
+				<label>Tuo indirizzo mail: <input type="text"
+					name="mailtoclear" id="mailtoclear" /></label><br /> <br /> <label>password:
+					<input type="text" name="clearpass" id="clearpass" />
+				</label>
+			</fieldset>
+			<input type="submit" value="INVIA DATI" />
+		</form>
+	</div>
+</body>
+</html>

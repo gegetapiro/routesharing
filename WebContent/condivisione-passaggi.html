@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Condivisione passaggi auto per il risparmio di carburante e minore emissione di inquinanti, CO2.">
+<meta name="keywords" content="route sharing, condivisione passaggi, condividere passaggi auto, condivisione passaggi auto, risparmiare benzina, aria più pulita">
+<meta name="author" content="Gerardo Trimarco">
+<title>Routesharing condivisione passaggi</title>
+<!-- Fogli di stile -->
+<link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="assets/css/stili-custom.css" rel="stylesheet" media="screen">
+<!-- Modernizr -->
+<script src="assets/js/modernizr.custom.js"></script>
+<!-- respond.js per IE8 -->
+<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="newJSscripts/allscript.js" type="text/javascript"></script>
+</head>
+<body>
+	<!--############## codice facebook #######################-->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&appId=139419003000&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		$(document).ready(function() {
+			hideinfomore();
+			document.getElementById("showmeno").style.display = "none";
+		});
+		$('[data-toggle="popover"]').popover({
+			content : 'clicca per avere più informazioni',
+			title : "help",
+			trigger : "hover",
+			placement : "bottom",
+			animation : "true"
+		});
+	</script>
+	<!--#################################### fine codice facebook ################################################-->
+	<div class="container">
+		<h1 id="title" class="logo">
+			<span>routesharing</span>.org <br /> <small class="resmintest">Condivisione passaggi auto</small>
+		</h1>
+
+		<nav class="navbar navbar-default">
+			<!-- <div class="container-fluid"> -->
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+					<li><a href="gotojobplace.html">Condivisione giornaliera</a></li>
+					<li><a href="worldtravel.html">Condivisione unatantum</a></li>
+					<li><a href="disponibilita_passaggi.html">Verifica disponibilità</a></li>
+					<li><a href="sendToAFriend.html">Comunica ad un amico</a></li>
+					<li><a href="deletepage.html">Cancellazione</a></li>
+				</ul>
+				<a href="worldwide/sharing-rideshare.html"> <img alt="english language" id="changeLanguage" src="img/unionJack.png"></a>
+			</div>
+			
+			<!-- </div> -->
+		</nav>
+		<div class="container">
+			<img src="images/baseHeader.png" class="img-responsive">
+			<div id="changingarea" class="body_resize">
+
+				<h2>Andare al lavoro insieme</h2>
+				<h4>con tutti i vantaggi che questo comporta</h4>
+
+				<p>
+					L'idea é quella di trovare delle persone che abitando sufficentemente vicino a noi abbiano anche il posto di lavoro sufficentemente vicino al nostro, in modo da potere utilizzare una sola
+					automobile per andare a lavorare. Una volta iscritti (è sufficente il solo indirizzo mail) potete verificare se già c'è qualcuno con cui potere condividere un percorso per andare al lavoro, dopo
+					di chè il sistema fa una ricerca periodica e nel momento in cui si verificasse una compatibilità, viene inviata in automatico una mail indicandovi il vostro possibile condivisore di percorso, a
+					voi poi la scelta se contattarlo o meno. La differenza con gli altri siti di carrpoling è che in questo caso c'è un'algoritmo che calcola le prossimità geografiche ed abbina le persone tra loro <a
+						href="gotojobplace.html"> Puoi provare subito registrati.</a>
+				</p>
+
+				<h2>Altro tipo di passaggi</h2>
+				<h4>Quando il passaggio è occazionale</h4>
+
+				<p>
+					Esiste comunque la possibilitïà di ricercare passaggi una tantum da via a via, da città a città, viaggi extranazionali ecc...... <a href="worldtravel.html">Registrati subito</a>
+				</p>
+				<br />
+				<button type="button" id="ahead" class="btn btn-success" onclick="javascript:showmoreinfo();">
+					<span id="showpiu">più informazioni</span><span id="showmeno">meno informazioni</span>
+				</button>
+				<br />
+				<div id="altreinformazioni">
+					<div id="tuttocorpo">
+						<h2>RISPARMIO CARBURANTE</h2>
+						<h5>CONDIVISIONE PASSAGGI AUTO PER ANDARE AL LAVORO</h5>
+						E' un modo per <strong>risparmiare</strong> benzina, gasolio, gas, ma sopratutto un tentativo di lasciare ai nostri figli <strong>un'aria un po' meno velenosa</strong> con meno emissioni di <strong>CO2</strong>.
+						Questa sezione si occupa di spostamenti quotidiani da casa al lavoro e viceversa. In pratica un programma java calcola attraverso le cordinate geografiche dell'utente , quali altri utenti
+						sarebbero per vicinanze geografiche compatibili per uno scambio di passaggi. Del tipo oggi andiamo con la tua automibile, domani con la mia, dopodomani con la sua. Il programma non fa altro che
+						creare delle <strong>relazioni</strong>, o link se preferite <strong>tra persone con obiettivi comuni</strong>. le relazioni umane e la rete stessa si basano proprio su questo: vedi teoria dei <strong>grafi</strong>
+						o teoria delle reti. Sta poi all'utente decidere se utilizzarle o meno. Ovviamente questo sistema per potere funzionare ha bisogno di quella che si può definire: <strong>"massa
+							critica"</strong>, ovvero una quantità di utenti che renda le probabilità di trovare qualcuno che sia <strong>abbastanza vicino a casa vostra</strong> e che allo stesso tempo lavori in un
+						punto <strong>abbastanza vicino al vostro lavoro</strong>, sufficentemente alte. Per questo <strong>più adesioni</strong> ci saranno a questo progetto più la cosa può
+						funzionare. Più in fretta si raggiunge un numero sufficiente di utenti iscritti (massa critica), prima il sistema inizierà a funzionare. Quando ho avuto l'idea di questo sito circa
+						un anno fa, ero sicuro che non esistessero siti di questo tipo. Ora so che esiste almeno un sito con la stessa finalità e modalità del mio. <br> Pur essendoci la
+						possibilità di inserire i vostri dati, per usufruire del servizio è sufficente <strong>il solo indirizzo mail</strong>. <br> <strong><a href="gotojobplace.html">Iscriviti
+								al progetto di condivisione passaggi</a></strong>
+						<h3>Tutto quello che segue non ha bisogno di nessuna registrazione ma è sufficente inserire l'annuncio direttamente</h3>
+						<h5>CONDIVISIONE PASSAGGI AUTO UNA TANTUM</h5>
+						Questo è il caso in cui serva un passaggio per le vacanze o per raggiungere un'altra città che può essere <strong>solo una volta</strong>, solo per andata, o andata ritorno
+						poi starà ai soggetti se dividere le spese di carburante o cercare un'altra forma di pagamento, in questo caso basta inserire un semplice annuncio. <br> <strong>Inserisci
+							annuncio di richiesta o offerta passaggio unatantum</strong>
+						<p>
+							<b>nota importante: </b> Resta inteso che il responsabile di questo sito, declina ogni responsabilità per eventuali comportamenti non corretti perpretrati da utenti, tanto più che
+							il sito svolge un servizio unicamente passivo, non di mediazione tra gli utenti. E' solo una sorta di database dinamico
+						</p>
+						<!--<h3>DIECI MOTIVI PER UTILIZZARE QUESTO STRUMENTO</h3>-->
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<br /> <br />
+
+		<!--##################### facebook and linkedin code ###############################-->
+		<div id="social">
+
+			<div class="fb-like" data-href="http://www.routesharing.org" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			<div id="linkedinbut">
+				<script src="//platform.linkedin.com/in.js" type="text/javascript">
+					lang: en_US
+				</script>
+				<script type="IN/Share" data-url="http://www.routesharing.org" data-counter="right"></script>
+			</div>
+		</div>
+		<!--################### end facebook linkedin code #############################-->
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+
+			<p class="text-muted">Powered by Bootstrap ©copyright Gerardo Trimarco</p>
+
+		</div>
+	</footer>
+	<!-- jQuery e plugin JavaScript  -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			$.getJSON("http://jsonip.com/?callback=?", function(data) {
+
+				console.log(data);
+				valoreip = data.ip;
+				$.ajax({
+
+					type : "POST",
+					url : "Counter",
+					data : "valoreip=" + valoreip,
+				// success : function(valore) {
+				// alert(valore);
+				// }
+				});
+			});
+		});
+	</script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+.logo {
+	margin: 0;
+}
+
+.header_resize {
+	margin: 0 auto;
+	padding: 0;
+	width: 970px;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	background: #fcf6ee url(../../images/header_bg.png) top repeat-x;
+}
+
+h1 {
+	margin: 0;
+	padding: 38px 0 36px 32px;
+	color: #5c5c5c;
+	font: bold 40px/1.2em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+
+h1 a, h1 a:hover {
+	color: #5c5c5c;
+	text-decoration: none;
+}
+
+h1 span {
+	font-weight: bold;
+	color: #930;
+}
+
+h1 small {
+	font: normal 13px/1.2em Arial, Helvetica, sans-serif;
+	color: #888;
+	letter-spacing: normal;
+}
+
+small {
+	font-size: 55% !important;
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+.logo {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+	small {
+		font-size: 55% !important;
+	}
+	#title {
+		font-size: 260% !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	small {
+		font-size: 50% !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	small {
+		font-size: 50% !important;
+	}
+	#title {
+		font-size: 160% !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	small {
+		font-size: 55% !important;
+	}
+	#title {
+		font-size: 160% !important;
+	}
+}
+
+@media screen and (max-width: 240px) {
+	small {
+		font-size: 55% !important;
+	}
+	#title {
+		font-size: 156% !important;
+	}
+}
+
+body {
+	background-color: #FCF6EE;
+}
+
+/* Sticky footer styles
+ -------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: auto;
+	background-color: #f5f5f5;
+}
+
+.container .text-muted {
+	margin: 20px 0;
+	/*width: 40%;*/
+}
+/* FINE Sticky footer styles
+ -------------------------------------------------- */
+#social {
+	/*display: inline;*/
+	/*position: relative;*/
+	/*float: right;*/
+	margin: 0 !important;
+	padding: 0 !important;
+	/*bottom: 20px;*/
+	width: 100%;
+}
+
+#social div {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+#linkedinbut {
+	/*position: relative;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*box-sizing: content-box !important;*/
+	/*width: 100px !important;*/
+	/*float: right !important;*/
+	/*clear: left;*/
+	/*height: 20px;*/
+
+}
+
+.IN-widget {
+	position: relative !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 20px !important;
+	vertical-align: -5px !important;
+}
+/*.fb-like {
+
+ }*/
+@media screen and (max-width: 320px) {
+	.text-muted {
+		font-size: 12px;
+	}
+}
+
+/*################ gestione app ########################*/
+#arriveaddress {
+	display: none;
+}
+
+#comparsa {
+	position: relative;
+	display: none;
+}
+
+#prosegui {
+	position: relative;
+	width: 200px;
+	display: none;
+}
+
+#otherdata {
+	display: none;
+}
+
+#pophover {
+	margin-bottom: 8px;
+}
+
+#campicordi {
+	display: none;
+}
+
+.spazio {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	padding: 8px;
+	margin: 10px;
+}
+
+.mailclass {
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+}
+#infoherebut {
+	display: none;
+}
+/*################ FINE gestione app ########################*/
+/* ####################### gestione app unatantum ####################### */
+#conticifra {
+	display: none;
+}
+/* ####################### FINE gestione app unatantum ####################### */
+/* ############### bandierina ############### */
+#changeLanguage{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 6px;
+}
+/* ################################################################################ */

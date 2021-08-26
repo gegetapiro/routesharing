@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pagina di cancellazione</title>
+<!--<link href="Scripts&amp;Styles/styles/insideStyle.css" rel="stylesheet" type="text/css" />-->
+</head>
+
+<body>
+<h3>Cancella annuncio e registrazione</h3>
+
+<form action="selectClearuser.do" method="post">
+<fieldset class="disti">
+<legend><strong>Cancellazione per percorso giornaliero</strong></legend>
+<label>mail <input class="disti" type="text" name="mailtoclear" id="mailtoclear"  /></label>
+<label>password <input class="disti" type="text" name="clearpass" id="clearpass" /></label>
+<input class="disti" type="submit" value="CANCELLA RECORD" />
+</fieldset>
+</form>
+
+<form action="selectClearuserlt.do" method="post">
+<fieldset class="disti">
+<legend><strong>Cancellazione per percorso unatantum su lunghe distanze</strong></legend>
+<label>mail <input class="disti" type="text" name="mailtoclearlt" id="mailtoclearlt" /></label>
+<label>password <input class="disti" type="text" name="clearpasslt" id="clearpasslt" /></label>
+<input class="disti" type="submit" value="CANCELLA RECORD" />
+</fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0;
+	/* è buona norma impostare a zero i valori margin e padding dell'elemento body per tenere conto delle diverse impostazioni predefinite dei browser*/
+	padding: 0;
+	text-align: center;
+	/* centra il contenitore nei browser IE 5*. Il testo viene quindi impostato con l'allineamento predefinito a sinistra nel selettore #container */
+	color: #000000;
+}
+
+.oneColElsCtr #container {
+	width: 46em;
+	background: #FFFFFF;
+	margin: 0 auto;
+	/* i margini auto (insieme a una larghezza) centrano la pagina */
+	border: 1px solid #000000;
+	text-align: left;
+	/* sostituisce l'impostazione text-align: center nell'elemento body. */
+}
+
+.oneColElsCtr #mainContent {
+	padding: 0 20px;
+	/* ricordare che i valori padding e margin corrispondono rispettivamente allo spazio interno ed esterno al riquadro div */
+}

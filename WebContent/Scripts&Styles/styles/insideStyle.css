@@ -1,0 +1,194 @@
+@CHARSET "ISO-8859-1";
+
+#campicordi {
+	float: right;
+}
+
+#startaddress {
+	width: 500px;
+}
+
+#arriveaddress {
+	width: 500px;
+}
+
+#inserting {
+	width: 500px;
+}
+
+#map_canvas {
+	float: left;
+	/*clear:right;*/
+}
+
+#comparsa {
+	position: relative;
+	display: none;
+}
+
+#sapere { /*margin:6px;*/
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #FFF;
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+#prosegui {
+	position: relative;
+	width: 200px;
+	display: none;
+}
+
+#prosegui a {
+	background-color: #CCC;
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+	padding: 3px;
+	margin: 3px;
+	text-decoration: none;
+}
+#prosegui_2 {
+	position: relative;
+	width: 200px;
+	display: none;
+}
+
+#prosegui_2 a {
+	background-color: #CCC;
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+	padding: 3px;
+	margin: 3px;
+	text-decoration: none;
+}
+
+
+#topcontainer {
+	/*width: 810px;*/
+	/*margin-bottom: 30px;*/
+	margin-top:20px;
+}
+
+#otherdata {
+	position: relative;
+	display: none;
+	float: left;
+	width: 810px;
+	margin-top: 42px;
+}
+
+#otherdata_2 {
+	position: relative;
+	display:none;
+	float: left;
+	width: 810px;
+	margin-top: 42px;
+}
+
+.contiinput {
+	
+}
+
+#theaddress {
+	position: relative;
+	margin: 4px;
+	/*float:right;*/
+}
+
+#theaddress2 {
+	position: relative;
+	margin: 4px;
+}
+
+#elsephone {
+	padding: 4px;
+	background-color: #FFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666;
+	text-decoration: none;
+	font-size: 14px;
+	top: 6px;
+}
+
+#thephones {
+	width: 800px;
+}
+
+#visphones {
+	display: none;
+}
+
+.allinea {
+	display: inline-block;
+	margin: 10px;
+}
+
+#tabresult {
+	
+}
+
+#trlivel {
+	border-color: #666;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#tdlivel {
+	background-color: #FC6;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-color: #6CF;
+	border-width: 1px;
+}
+
+#manydays {
+	display: none;
+}
+
+.smallcontainer {
+	background-color: #999;
+	padding: 4px;
+	margin: 6px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666;
+}
+
+#contentsender {
+	margin: 12px;
+}
+
+#contentsender input {
+	margin: 20px;
+	margin-left: 0px;
+}
+
+#contentsender textarea {
+	margin: 20px;
+	margin-left: 0px;
+}
+
+.disti {
+	margin: 20px;
+}
+#conticifra {
+	display:none;
+}

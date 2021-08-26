@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		function controllaTipo(tipo) {
+			var i = document.createElement("input");
+			i.setAttribute("type", tipo);
+			return i.type !== "text";
+
+		}
+
+		$(document).ready(function() {
+			var inputtype = prompt("insrisci il nome dell'imput");
+			if (controllaTipo(inputtype)) {
+				alert("il campo di input " + inputtype + " è supportato");
+
+			} else {
+				alert("il campo di input " + inputtype + " NON è supportato");
+			}
+		});
+	</script>
+	<!-- <form>
+		<label>
+			Quando sei disponibile per un incontro? <input type="date" name="mydatetime">
+		</label>
+		<input type="reset" value="Resetta il form"> <input type="submit" value="Invia">
+	</form> -->
+
+</body>
+</html>

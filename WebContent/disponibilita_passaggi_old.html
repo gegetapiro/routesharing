@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Verifica disponibilità per passaggi</title>
+<link href="Scripts&amp;Styles/styles/insideStyle.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="Scripts&Styles/styles/formstyle_2.css" />
+
+</head>
+
+<body>
+	<h3>VERIFICA DISPONIBILITA'</h3>
+	<p>Da questa pagian è possibile verificare se da quando vi siete
+		registrati si è registrato qualcuno compatibile con il vostro percorso</p>
+	<hr />
+	<p>
+		<strong>Percorso giornaliero</strong> per andare al lavoro, a scuola o
+		comunque qualsiaisi tragitto ripetuto
+	</p>
+	<form action="selectSearchpartner.do" method="post" id="contactform">
+		<fieldset class="disti">
+			<legend>ricerca condivisione passaggio ripetitivo</legend>
+			<label>Indirizzo mail: <input class="disti" type="text" name="udmail" id="udmail" /></label> 
+            <label class="disti">Password: <input class="disti" type="text" name="password" id="password" />
+			</label>
+			<input type="submit" value="CERCA UTENTI" />
+		</fieldset>
+		
+	</form>
+	<hr />
+	<p>
+		<strong>Percorso unatantum</strong> tragitto occasionale solitamente
+		su distanze mediolunghe
+	</p>
+	<form action="selectSearchpartnerlg.do" method="post" id="contactform">
+		<fieldset class="disti">
+			<legend class="disti">ricerca condivisione passaggio occasionale</legend>
+			<label class="disti">Indirizzo mail: <input class="disti" type="text" name="udmaillt" id="udmaillt" /></label>
+             <label class="disti">Password: <input class="disti" type="text" name="passwordlt" id="passwordlt" /></label><br /><br />
+             <label>Raggio di ricerca di: <select name="diametroricerca"
+					id="diametroricerca">
+					<option value="1">Nelle vicinanze</option>
+					<option value="2">all'incirca 5 km</option>
+					<option value="3">da centro a periferia circa 7 km</option>
+                    <option value="4">da centro a paesi vicini circa 13 km</option>
+                    <option value="5">provincia città medio grande 70km circa</option>
+				</select></label>
+				<br> <br><br>
+             <input type="submit" value="CERCA UTENTI" />
+		</fieldset>
+        
+	</form> 
+</body>
+</html>

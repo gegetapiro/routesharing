@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Invia ad un amico/a</title>
+<!--[if IE]>
+<link type="text/css"  href="Scripts&Styles/explorer/explorerstyle.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="Scripts&Styles/explorer/IEglobalstyle.css">
+<![endif]-->
+<style type="text/css">
+html body div{
+	margin:0;
+	padding:0;
+}
+
+#contiinput{
+	 width:500px; 
+	 margin:0;
+	 padding:0;
+}
+input{
+	/*margin:6px;*/
+	float:right;
+	margin:0;
+	padding:0;
+	
+	
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+	
+</style>
+
+</head>
+
+<body class="insederbodyshort">
+	<div id="topcontainer">
+		<h3>Invia indirizzo sito ad un amico o conoscente</h3>
+		<form action="selectSendtofriend.do" method="post">
+			<fieldset id="contentsender">
+				<legend>invio mail</legend>
+                <br /><br />
+		<div id="contiinput">
+				<label>Nome amico: <input name="sendername" type="text" id="sendername" size="40" /></label> <br /><br />
+                <label>Nome tuo: <input name="recevivername" type="text" id="recevivername" size="40" /></label> 
+                <br /><br />
+                     <label> Tua mail: <input name="udmail" type="text" id="udmail" size="40" /></label> 
+                     <br /><br />
+<label>mail amico: <input name="friendmail" type="text" id="friendmail" size="40" />
+		  </label>
+                </div>
+                <br /><br />
+                 <label id="txtlab">Note: <textarea name="notesender" cols="50" rows="10" id="notesender"></textarea></label>
+				
+
+			<br />
+			<input type="submit" value="INVIA DATI" />
+            </fieldset>
+		</form>
+	</div>
+</body>
+</html>

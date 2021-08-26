@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Rideshare For fuel economy and lower pollutant emissions, CO2.">
+		<meta name="keywords" content="route sharing, ride sharing, car ride sharing, saving petrol, cleaner air">
+		<meta name="author" content="Gerardo Trimarco">
+		<title>Send this to a friend</title>
+		<!-- Fogli di stile -->
+		<link href="../assets/css/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="../assets/css/stili-custom.css" rel="stylesheet" media="screen">
+		<!-- Modernizr -->
+		<script src="../assets/js/modernizr.custom.js"></script>
+		<!-- respond.js per IE8 -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<!-- Piwik -->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(["setDomains", ["*.www.routesharing.org"]]);
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u = "//www.hwstudio.it/analytics/";
+				_paq.push(['setTrackerUrl', u + 'piwik.php']);
+				_paq.push(['setSiteId', 3]);
+				var d = document,
+				    g = d.createElement('script'),
+				    s = d.getElementsByTagName('script')[0];
+				g.type = 'text/javascript';
+				g.async = true;
+				g.defer = true;
+				g.src = u + 'piwik.js';
+				s.parentNode.insertBefore(g, s);
+			})();
+		</script>
+		<noscript>
+			<p><img src="//www.hwstudio.it/analytics/piwik.php?idsite=3" style="border:0;" alt="" />
+			</p>
+		</noscript>
+		<!-- End Piwik Code -->
+
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 id="title" class="logo"><span>routesharing</span>.org
+			<br />
+			<small class="resmintest">car rideshare</small></h1>
+
+			<nav class="navbar navbar-default">
+				<!-- <div class="container-fluid"> -->
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="sharing-rideshare.html">Home</a>
+						</li>
+						<li>
+							<a href="gotojobplace.html">daily rideshare</a>
+						</li>
+						<li>
+							<a href="worldtravel.html">once rideshare</a>
+						</li>
+						<li>
+							<a href="availability-rideshare.html">availability rideshare</a>
+						</li>
+						<li class="active">
+							<a href="#">send to a friend<span class="sr-only">(current)</span></a>
+						</li>
+						<li>
+							<a href="deletepage.html">delete your registration</a>
+						</li>
+					</ul>
+					<a href="../sendToAFriend.html"><img alt="lingua italiana" id="changeLanguage" src="../img/italianFlag.png"></a>
+				</div>
+			</nav>
+			<img src="../images/baseHeader.png" class="img-responsive">
+			<h2>Send url site to a friend or acquaintance </h2>
+			<form action="../selectSendtofriend.do" method="post">
+				<fieldset>
+					<legend>
+						Send mail
+					</legend>
+					<div class="row">
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+							<div class="form-group">
+								<label for="sendername">Friend name:</label>
+								<input name="sendername" type="text" id="sendername" class="form-control" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+							<div class="form-group">
+								<label for="recevivername">Your name:</label>
+								<input name="recevivername" type="text" id="recevivername" class="form-control" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+							<div class="form-group">
+								<label for="udmail"> Your mail:</label>
+								<input name="udmail" type="text" id="udmail" class="form-control" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+							<div class="form-group">
+								<label for="friendmail">Friend mail:</label>
+								<input name="friendmail" type="text" id="friendmail" class="form-control" />
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+							<div class="form-group">
+								<label for="notesender">Note:</label>
+								<textarea name="notesender" id="notesender" class="form-control"></textarea>
+							</div>
+						</div>
+					</div>
+					<input type="submit" value="SEND MAIL" />
+				</fieldset>
+			</form>
+		</div>
+		<br />
+		<br />
+		<footer class="footer">
+			<div class="container">
+
+				<p class="text-muted">
+					Powered by Bootstrap ©copyright Gerardo Trimarco
+				</p>
+
+			</div>
+		</footer>
+	</body>
+</html>

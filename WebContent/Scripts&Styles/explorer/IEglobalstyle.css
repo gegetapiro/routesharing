@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.insederbody { /*background-color:#FBEFCA;*/
+	height: auto;
+	background-image: url(../../img/fondoLong_2.jpg);
+	/*background-image:url(../../img/lineaFondo.png);*/
+	background-repeat: repeat-x;
+}
+
+.insederbodyshort {
+	height: auto;
+	background-image: url(../../img/lineaFondo.png);
+	background-repeat: repeat-x;
+}
+
+input {
+	margin: 10px;
+}
+
+.roll p {
+	position: relative;
+	margin-top: 26px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+}

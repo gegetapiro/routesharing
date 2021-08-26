@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+body {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*################ provvisorio ##########################*/
+#provvisoriodiv {
+	background-color: #CCC;
+	position: absolute;
+	top: 200px;
+	left: 320px;
+	z-index: 100;
+	padding: 24px;
+	margin: 24px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+#chiusura {
+	float: right;
+	border-style: solid;
+	border-color: #333;
+	border-width: 1px;
+	padding: 4px;
+	margin: 4px;
+}
+/*##########################################################*/
+
+/*###########################################################################*/
+/*#tab_1 {
+	display: none;
+}*/
+
+#navigatorone {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+}
+
+.rollin {
+	list-style: none;
+	float: left;
+	height: 50px;
+	width: 124px;
+	margin: 4px;
+	background-image: url(../../img/backlineNew.png);
+	background-repeat: repeat-y;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #666;
+	text-decoration: none;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.rollin p {
+	margin: 0;
+	padding: 3px;
+}
+
+#tab_1 p {
+	margin-top: 10px;
+}
+#tab_6 p {
+	margin-top: 10px;
+}
+
+.rollin:hover {
+	background-image: url(../../img/backlineNewOver.png);
+	background-repeat: repeat-y;
+	border-color: #000;
+}
+
+/*###########################################################################*/
+a {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	position: relative;
+	left: 0;
+	margin: 0 auto;
+	margin-top: 16px;
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #09F;
+	width: 900px;
+	height: 550px;
+	background-image: url(../../img/lineaFondo.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+/*################### stile da photoshop ######################*/
+#apDiv1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 900px;
+	height: 3px;
+	z-index: 1;
+	line-height: 3px;
+}
+
+#apDiv2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 817px;
+	height: 33px;
+	z-index: 2;
+	vertical-align: middle;
+}
+
+#apDiv3 {
+	position: absolute;
+	left: 817px;
+	top: 0px;
+	width: 44px;
+	height: 25px;
+	z-index: 3;
+}
+
+#apDiv4 {
+	position: absolute;
+	left: 861px;
+	top: 0px;
+	width: 39px;
+	height: 33px;
+	z-index: 4;
+	vertical-align: middle;
+}
+
+#apDiv5 {
+	position: absolute;
+	left: 817px;
+	top: 25px;
+	width: 44px;
+	height: 8px;
+	z-index: 5;
+	line-height: 8px;
+}
+
+#apDiv6 {
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	width: 33px;
+	height: 520px;
+	z-index: 6;
+	vertical-align: middle;
+}
+
+#apDiv7 {
+	position: absolute;
+	left: 33px;
+	top: 33px;
+	width: 834px;
+	height: 69px;
+	z-index: 7;
+	text-align: center;
+}
+
+#apDiv8 {
+	position: absolute;
+	left: 867px;
+	top: 33px;
+	width: 33px;
+	height: 520px;
+	z-index: 8;
+	vertical-align: middle;
+}
+
+#apDiv9 {
+	position: absolute;
+	left: 43px;
+	top: 102px;
+	width: 6px;
+	height: 42px;
+	z-index: 9;
+}
+
+#apDiv10 {
+	position: absolute;
+	left: 39px;
+	top: 102px;
+	width: 384px;
+	height: 42px;
+	z-index: 10;
+}
+
+#apDiv11 {
+	position: absolute;
+	left: 423px;
+	top: 102px;
+	width: 444px;
+	height: 42px;
+	z-index: 11;
+}
+
+#apDiv12 {
+	position: absolute;
+	left: 33px;
+	top: 144px;
+	width: 834px;
+	height: 374px;
+	z-index: 12;
+}
+
+#apDiv13 {
+	position: absolute;
+	left: 33px;
+	top: 518px;
+	width: 834px;
+	height: 35px;
+	z-index: 13;
+}
+
+#apDiv14 {
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	width: 1px;
+	height: 557px;
+	z-index: 14;
+}
+
+/*##################### fine stile da photoshop ########################*/
+#explanation {
+	position: absolute;
+	bottom: 10px;
+	left: 24px;
+	width: 674px;
+	height: 170px;
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+}
+
+#contenttxt {
+	margin: 6px;
+	font-size: 0.7em;
+}
+
+#exp_1 {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	background-color: #FBEFC9;
+	left: 272px;
+	top: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333;
+}
+
+#exp_2 {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	background-color: #FBEFC9;
+	left: 272px;
+	top: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333;
+}
+
+#exp_3 {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	background-color: #FBEFC9;
+	left: 272px;
+	top: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333;
+}
+
+#exp_4 {
+	z-index: 10;
+	position: absolute;
+	display: none;
+	background-color: #FBEFC9;
+	left: 272px;
+	top: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333;
+}
+#ingra{
+	position:relative;
+	margin:0;
+	padding:0;
+	float:right;
+	clear:left;
+	
+}

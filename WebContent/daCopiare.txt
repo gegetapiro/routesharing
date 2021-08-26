@@ -1,0 +1,69 @@
+<div id="prosegui">
+<div id="shouldissig"><a href="#point1" onClick="javascript:showmore()" id="ahead">AVANTI</a> <br>
+<a href="#" onClick="javascript:changeagain();" id="again">oppure reinserisci le cordinate</a></div>
+</div>
+
+<div id="otherdata">
+<label class="contiinput" id="foraddress" for="theaddress">indirizzo casa<input type="text" name="theaddress" id="theaddress"></label><br><br><br> 
+<label class="contiinput" id="foraddress2" for="theaddress2">indirizzo lavoro<input type="text" name="theaddress2" id="theaddress2" value="">
+</label>
+
+
+<!--########## da qui ################-->
+<h3>inserisci altri dati</h3>
+<div id="otherdata">
+<form onsubmit="return verifica()" action="Cordiget" method="post">
+<a name="point1"></a><p><strong>Attenzione:</strong>la mail è obbligatoria al fine di potere essere contattati da eventuali utenti
+interessati alla condivisione dei passaggi. Tutto il resto è utile ma facoltativo</p>
+<fieldset>
+<legend><b>I tuoi dati</b></legend>
+<br>
+<label class="contiinput" id="nikname" for="nik">Nome o nikname<input type="text" name="nik" id="nik"></label><br><br><br>
+<label class="contiinput" id="formail" for="lamail">mail valida *<input type="text" name="lamail" id="lamail" onChange="javascript:caricali();"></label><br><br><br> 
+<label for="checkvis">preferisco contatti telefonicii</label>
+<input name="checkvis" type="checkbox" id="checkvis" value="selez" onClick="accendicampo()">
+<br><br>
+<div id="contophone">
+<label class="contiinput" id="forcell" for="ilcell">cellulare<input type="text" name="ilcell" id="ilcell"></label><br><br><br>
+<label class="contiinput" id="forphone" for="thephone">telefono casa<input type="text" name="thephone" id="thephone"></label><br><br><br>
+</div> 
+
+<label class="contiinput" id="nome" for="onome">nome<input type="text" name="onome" id="onome"></label><br><br><br> 
+
+<label class="contiinput" id="cognome" for="ocognome">cognome<input type="text" name="ocognome" id="ocognome"></label><br><br><br>
+<label class="contiinput" id="foraddress" for="theaddress">indirizzo casa<input type="text" name="theaddress" id="theaddress"></label><br><br><br> 
+<label class="contiinput" id="foraddress2" for="theaddress2">indirizzo lavoro<input type="text" name="theaddress2" id="theaddress2" value=""></label><br><br><br>
+
+<label class="contiinput" id="kyndveicle" for="kyndmachine">tipo di mezzo che possiedi
+<select name="kyndmachine" id="kyndmachine">
+<option value="auto2">automobile 2 posti</option>
+<option value="auto4">automobile 4 posti</option>
+<option value="auto5">automobile 5 posti</option>
+<option value="van">van</option>
+<option value="moto">moto</option>
+<option value="motorino">motorino</option>
+</select>
+</label>
+<br><br>
+</fieldset>
+<br><br>
+<br>
+<fieldset>
+<legend><b>Sicurezza</b></legend>
+<br>
+<label class="contiinput" for="pw">scegli una password<input type="password" name="pw" id="pw"></label><br><br><br>
+<label class="contiinput" for="pwconf">conferma password<input type="password" name="confpass" id="confpass"></label> <br><br>
+</fieldset>
+<input type="hidden" name="cordistartlat" id="cordistartlat" value=""> <input type="hidden" name="cordistartlong" id="cordistartlong" value=""> 
+<input type="hidden" name="cordiarrivelat" id="cordiarrivelat" value=""> <input type="hidden" name="cordiarrivelong" id="cordiarrivelong" value="">
+<input type="hidden" name="fromwhatpage" id="fromwhatpage" value="carSharing.html">
+<br>
+<fieldset>
+<legend><b>Comunicazioni</b></legend>
+<label>Qui puoi inserire qualcosa che eventuali utenti vuoi che sappiano</label><br><br>
+<textarea name="note" id="note"></textarea>
+</fieldset>
+<br>
+<input type="submit" value="invia dati"></form>
+</div>
+</div>

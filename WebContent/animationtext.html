@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>animationtext</title>
+		<meta name="author" content="root" />
+		<!-- Date: 2015-09-21 -->
+		<style type="text/css">
+			#contiall {
+				position: absolute;
+				top: 600px;
+				left: 300px;
+				border-style: solid;
+				border-width: 1px;
+				border-color: #8BBE43;
+				width: 800px;
+				height: 30px;
+			}
+			.contitesto {
+				position: relative;
+				display: inline;
+				width: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="contiall"></div>
+		<script type="text/javascript">
+			var divprimo = document.createElement("div");
+			var livello = document.getElementById("contiall");
+			// alert(livello);
+
+			var counter = 0;
+			var stringa1 = "il mattino ha loro in bocca";
+			var chars = new Array();
+			for (var i = 0; i < stringa1.length; i++) {
+				chars[i] = stringa1.charAt(i);
+			}
+			var intervallo = setInterval(anima, 300);
+			function anima() {
+				livello.innerHTML += "<div class='contitesto'><strong>" + chars[counter] + "</strong></div>";
+				counter++;
+				if (counter > stringa1.length) {
+					livello.innerHTML = "";
+					counter = 0;
+
+				}
+			}
+		</script>
+
+		<script type="text/javascript">
+			var divprimo = document.createElement("div");
+			var livello = document.getElementById("contiall");
+			// alert(livello);
+
+			var counter = 0;
+			var stringa = new Array();
+			stringa[0] = "il mattino ha loro in bocca";
+			stringa[1] = "era meglio morire da piccoli con i peli del culo a batuffoli";
+			stringa[2] = "tanto va lagatta al alrdo che ci lascia lo zampino";
+			stringa[3] = "disse pippo a clarabella";
+			stringa[0] = new Array();
+			stringa[1] = new Array();
+			stringa[2] = new Array();
+			stringa[3] = new Array();
+			for (var i = 0; i < stringa.length; i++) {
+				for (var e = 0; e < stringa[i].length; e++) {
+					stringa[i][e] = stringa[i].charAt(e);
+				}
+			}
+			for(var c = 0; c < stringa.length; c++){
+				
+			}
+		</script>
+
+	</body>
+</html>
+
